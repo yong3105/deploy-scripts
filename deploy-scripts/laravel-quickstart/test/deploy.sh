@@ -13,15 +13,15 @@ DEPLOY_BASEDIR="/bitnami/jenkins/1001/deploys"
 
 #SOURCE MASTER
 SRC_MASTER_DIR="/bitnami/jenkins/sourcemaster"
-SRC_MASTER_URL="http://<your-jenkins-server-ip>:8080"
+SRC_MASTER_URL="http://52.221.184.254:8080"
 
 #SERVER
-SERVERS="ubuntu@<your-app-server-ip>"
+SERVERS="ubuntu@52.221.208.114"
 SERVER_DOCKER_PATH="/var/dockers/$SITE_NAME"
 SERVER_SOURCE_PATH="/var/www/$SITE_NAME"
 
 #GITS
-GITREPO_URL="https://$GIT_USER:$GIT_PASS@github.com/pong3ds"
+GITREPO_URL="https://$GIT_USER:$GIT_PASS@github.com/yong3105"
 SOURCE_REPO="$GITREPO_URL/laravel-quickstart-source.git"
 CONFIG_REPO="$GITREPO_URL/laravel-quickstart-config.git"
 DOCKER_REPO="$GITREPO_URL/laravel-quickstart-dockers.git"
@@ -41,4 +41,4 @@ COMPOSER_IMAGE="3dsinteractive/composer:7.1"
 
 source /bitnami/jenkins/1001/deploy-scripts/base/deploy-base.sh
 
-run test
+run
