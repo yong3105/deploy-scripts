@@ -16,7 +16,7 @@ SRC_MASTER_DIR="/bitnami/jenkins/sourcemaster"
 SRC_MASTER_URL="http://192.168.99.100:8080"
 
 #SERVER
-SERVERS="ubuntu@52.221.208.114"
+SERVERS="yong@192.168.76.136"
 SERVER_DOCKER_PATH="/var/dockers/$SITE_NAME"
 SERVER_SOURCE_PATH="/var/www/$SITE_NAME"
 
